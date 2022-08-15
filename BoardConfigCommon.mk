@@ -74,6 +74,12 @@ AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := false
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
+# Display
+TARGET_USES_HWC2 := true
+TARGET_USES_GRALLOC1 := true
+TARGET_USES_GRALLOC4 := true
+TARGET_USES_ION := true
+
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
@@ -94,9 +100,6 @@ DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 
 # Init
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sdm660
-
-# Media
-TARGET_USES_ION := true
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
