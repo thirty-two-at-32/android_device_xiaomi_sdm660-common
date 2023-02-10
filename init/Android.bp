@@ -64,6 +64,12 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.qcom.sensors.sh",
+    src: "init.qcom.sensors.sh",
+    vendor: true,
+}
+
+sh_binary {
     name: "init.qcom.sh",
     src: "init.qcom.sh",
     vendor: true,
@@ -72,5 +78,11 @@ sh_binary {
 sh_binary {
     name: "init.class_main.sh",
     src: "init.class_main.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qti.dcvs.sh",
+    src: "init.qti.dcvs.sh",
     vendor: true,
 }
