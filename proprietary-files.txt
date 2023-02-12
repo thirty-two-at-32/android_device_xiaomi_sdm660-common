@@ -235,6 +235,13 @@ vendor/lib64/liboemcrypto.so|d8581db5b66835a89489c394f334cfb9d01b7d7f
 vendor/lib64/libcpion.so|b412ee0d83184dd35d3e8044c37be90543e4a5f4
 vendor/lib64/libhdcpsrm.so|1cb91cbaad3c0a44df4f244f8fb462a9f0ebb0b2
 
+# DSP - from S62Pro
+vendor/bin/dspservice|a8eb76af6150bbf29c12b76b00ab469b99f563f7
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|f902e821229cd1fff50ebfba99b0a068cbf74a56
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|223a9268bd92bd80dab3df02fbef38ea86bcbadd
+
 # GPS - from jasmine
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti;DISABLE_CHECKELF|108fa375ea1f0fd62aa5302da75f971a562a1f79
 vendor/bin/loc_launcher;DISABLE_CHECKELF|d0d1465a7f8eb24c50b3c616dccaf68b3dc7888a
