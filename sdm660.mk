@@ -469,7 +469,8 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx.vendor \
     libstagefright_softomx_plugin.vendor \
     libstagefright_xmlparser.vendor \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_foundation-v33
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
