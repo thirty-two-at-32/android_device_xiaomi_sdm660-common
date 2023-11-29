@@ -121,7 +121,13 @@ blob_fixups: blob_fixups_user_type = {
         .fix_soname(),
     'system_ext/lib64/libqxrsplitauxservice.qti.so': blob_fixup()
         .replace_needed('android.media.audio.common.types-V3-cpp.so', 'android.media.audio.common.types-V4-cpp.so')
-        .add_needed('libaudioclient_shim.so')
+        .add_needed('libaudioclient_shim.so'),
+    'vendor/lib64/libdlbdsservice.so': blob_fixup()
+        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
+    'vendor/lib/libstagefright_soft_ac4dec.so': blob_fixup()
+        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
+    'vendor/lib/libstagefright_soft_ddpdec.so': blob_fixup()
+        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so')
 }  # fmt: skip
 
 module = ExtractUtilsModule(
