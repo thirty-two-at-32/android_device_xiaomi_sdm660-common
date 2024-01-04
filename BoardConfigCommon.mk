@@ -43,7 +43,6 @@ BOARD_KERNEL_CMDLINE := \
     printk.devkmsg=on \
     service_locator.enable=1 \
     usbcore.autosuspend=7 \
-    user_debug=31 \
     androidboot.init_fatal_reboot_target=recovery
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_BASE := 0x00000000
