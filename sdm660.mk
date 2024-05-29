@@ -749,7 +749,8 @@ PRODUCT_PACKAGES += \
 
 # DeviceSettings
 PRODUCT_PACKAGES += \
-    DeviceSettings
+    DeviceSettings \
+    XiaomiDolby
 
 # Sign build
 -include vendor/evolution-priv/keys/keys.mk
