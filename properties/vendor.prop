@@ -250,6 +250,7 @@ vendor.usb.rmnet.func.name=gsi
 vendor.usb.rmnet.inst.name=rmnet
 vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=1
+vendor.usb.uvc.payload_transfer_size=1024
 
 # WiFi
 ro.boot.wificountrycode=00
