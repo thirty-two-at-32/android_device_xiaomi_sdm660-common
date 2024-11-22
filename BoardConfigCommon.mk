@@ -35,6 +35,7 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.boot_devices=soc/c0c4000.sdhci \
     androidboot.configfs=true \
     androidboot.hardware=qcom \
+    androidboot.init_fatal_reboot_target=recovery \
     androidboot.usbcontroller=a800000.dwc3 \
     ehci-hcd.park=3 \
     kpti=off \
