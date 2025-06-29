@@ -450,11 +450,6 @@ PRODUCT_PACKAGES += \
     libmedia_omx.vendor \
     libmm-omxcore \
     libOmxCore \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
     libOmxVidcCommon \
