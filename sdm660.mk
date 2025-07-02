@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
 # AuthSecret
@@ -754,7 +753,4 @@ PRODUCT_PACKAGES += \
     XiaomiDolby
 
 # Sign build
--include vendor/lineage-priv/keys/keys.mk
-
-# Vendor Extra
--include vendor/extra/product.mk
+-include vendor/evolution-priv/keys/keys.mk
