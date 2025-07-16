@@ -117,11 +117,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.authsecret@1.0-service
 
-# Biometrics
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660 \
-    android.hardware.biometrics.fingerprint@2.1.vendor
-
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
@@ -266,6 +261,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
     android.hardware.keymaster@4.1.vendor
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint-service.xiaomi_sdm660
 
 # Freeform Multiwindow
 PRODUCT_COPY_FILES += \
