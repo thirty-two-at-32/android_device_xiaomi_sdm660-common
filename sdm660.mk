@@ -751,7 +751,7 @@ PRODUCT_PACKAGES += \
 # DeviceSettings
 PRODUCT_PACKAGES += \
     DeviceSettings \
-    DolbyManager
+    XiaomiDolby
 
 # Sign build
 -include vendor/lineage-priv/keys/keys.mk
