@@ -353,7 +353,6 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     init.xiaomi_parts.rc \
-    init.verity.rc \
     ueventd.qcom.rc
 
 $(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):libinit_sdm660)
