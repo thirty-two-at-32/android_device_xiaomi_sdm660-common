@@ -1,1 +1,12 @@
+dontaudit gmscore_app { bt_firmware_file firmware_file }:filesystem getattr;
+dontaudit fsck_untrusted sysfs:file { read };
+dontaudit hal_fingerprint_default storage_file:dir search;
 dontaudit hal_usb_qti self:capability sys_admin;
+dontaudit isolated_app content_capture_service:service_manager find;
+dontaudit netutils_wrapper kernel:system module_request;
+dontaudit netutils_wrapper self:capability { sys_module sys_admin };
+dontaudit qti_init_shell self:capability { dac_override dac_read_search };
+dontaudit qti_init_shell system_prop:property_service set;
+dontaudit system_app time_daemon:unix_stream_socket { connectto };
+dontaudit system_server sysfs:file { read open getattr };
+dontaudit thermal-engine self:capability dac_override;

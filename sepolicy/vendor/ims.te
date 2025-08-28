@@ -1,2 +1,4 @@
+allow ims diag_device:chr_file { open read write ioctl };
 allow ims sysfs:file read;
+allow ims sysfs:file { open  read };
 set_prop(ims, vendor_qcom_ims_prop)

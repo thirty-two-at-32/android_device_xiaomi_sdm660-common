@@ -1,1 +1,4 @@
+allow zygote adsprpcd_file:dir search;
+allow zygote unlabeled:dir { search };
 allow zygote unlabeled:file { write };
+allow zygote vendor_framework_file:dir search;

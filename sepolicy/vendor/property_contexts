@@ -16,9 +16,15 @@ cameradaemon.SaveMemAtBoot              u:object_r:vendor_default_prop:s0
 cpp.set.clock                           u:object_r:vendor_default_prop:s0
 disable.cpp.power.collapse              u:object_r:vendor_default_prop:s0
 persist.camera.                         u:object_r:vendor_default_prop:s0
+persist.camera.module.info              u:object_r:camera_prop:s0
 persist.vendor.camera.                  u:object_r:camera_prop:s0
+persist.vendor.mwqem.enable             u:object_r:vendor_default_prop:s0
+ro.xiaomi.sar_fusion                    u:object_r:vendor_default_prop:s0
 vendor.camera.eis.gyro_name             u:object_r:camera_prop:s0
 vidc.enc.dcvs.extra-buff-count          u:object_r:vendor_default_prop:s0
+
+# Cnd
+persist.vendor.iwlan.logging.logcat     u:object_r:vendor_cnd_vendor_prop:s0
 
 # Dirac
 persist.audio.dirac.                    u:object_r:dirac_prop:s0
@@ -30,7 +36,11 @@ persist.sys.fp.                         u:object_r:hal_fingerprint_prop:s0
 persist.vendor.sys.fp.                  u:object_r:hal_fingerprint_prop:s0
 ro.boot.fp.                             u:object_r:hal_fingerprint_prop:s0
 ro.boot.fpsensor                        u:object_r:hal_fingerprint_prop:s0
+ro.product.fingerprint                  u:object_r:hal_fingerprint_prop:s0
 sys.fp.                                 u:object_r:hal_fingerprint_prop:s0
+
+# Hardware
+ro.hwversion                            u:object_r:exported_default_prop:s0
 
 # Media
 gpu.stats.debug.level                   u:object_r:vendor_default_prop:s0
@@ -47,6 +57,9 @@ ro.build.software.version               u:object_r:telephony_status_prop:s0
 ro.fota.oem                             u:object_r:telephony_status_prop:s0
 ro.miui.                                u:object_r:telephony_status_prop:s0
 ro.product.mod_device                   u:object_r:telephony_status_prop:s0
+
+# Sensors
+persist.sys.sensors.spg                 u:object_r:vendor_default_prop:s0
 
 # Thermal engine
 persist.sys.thermal.                    u:object_r:thermal_engine_prop:s0
