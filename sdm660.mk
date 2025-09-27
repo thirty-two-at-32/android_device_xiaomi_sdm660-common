@@ -373,7 +373,6 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libstagefright_omx.vendor \
     libc2dcolorconvert \
-    libhypv_intercept \
     libmm-omxcore \
     libOmxCore \
     libOmxVdec \
@@ -390,10 +389,6 @@ PRODUCT_PACKAGES += \
     SystemUISDM660Overlay \
     SettingsSDM660Overlay \
     TelephonySDM660Overlay
-
-PRODUCT_PACKAGES += \
-    FrameworksBaseSDM660OverlayInfinity \
-    SettingsOverlaySDM660Infinity
 
 # Partitions
 PRODUCT_PACKAGES += \
