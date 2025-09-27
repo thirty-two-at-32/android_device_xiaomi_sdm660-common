@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2018 The LineageOS Project
+XiaomiDolbyomiDolby Copyright (C) 2018 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -152,11 +151,7 @@ PRODUCT_PACKAGES += \
 
 # DeviceDoze
 PRODUCT_PACKAGES += \
-    XiaomiDoze
-
-# Device settings
-PRODUCT_PACKAGES += \
-    XiaomiDolby
+    XiaomiDose
 
 # Display
 PRODUCT_PACKAGES += \
@@ -167,7 +162,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
-    hwcomposer.qcom
+    hwcomposer.sdm660
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
